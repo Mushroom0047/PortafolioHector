@@ -29,6 +29,13 @@ article a img{
 	max-width: 200px;
 }
 
+.turnimg{
+	transition: .8s all;
+}
+.turnimg:hover{
+	transform: rotate(360deg);
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
