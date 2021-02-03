@@ -36,6 +36,23 @@ article a img{
 	transform: rotate(360deg);
 }
 
+
+.photoprof{
+	max-width: 300px;
+	border-radius: 10px;
+	transition: .5s all;
+
+}
+.photoprof:hover{
+	transform: rotate(-10deg);	
+}
+
+.saludos p{
+	float: right;
+	width: 50%;
+}
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
