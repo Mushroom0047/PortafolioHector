@@ -108,13 +108,13 @@
 									<p>Si tienes un proyecto en mente y quieres saber más sobre mi trabajo enviame un mensaje.</p>
 									<form method="post" action="contacto.php">
 										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Asunto" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="mensaje" rows="6"></textarea></div>
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" required/></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Asunto" required/></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="mensaje" rows="6" required></textarea></div>
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" class="primary" value="Enviar" /></li>
+													<li><input type="submit" class="primary" value="Enviar" name="enviar" /></li>
 													<li><input type="reset" value="Limpiar" /></li>
 												</ul>
 											</div>
