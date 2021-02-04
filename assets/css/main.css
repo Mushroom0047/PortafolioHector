@@ -25,6 +25,10 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+.parrafo{
+	text-align: justify;
+}
+
 article a img{
 	max-width: 200px;
 }
@@ -35,20 +39,6 @@ article a img{
 .turnimg:hover{
 	transform: rotate(360deg);
 }
-
-.photoprof{
-	max-width: 250px;
-	border-radius: 10px;
-	transition: .5s all;
-	-moz-box-shadow: 8px 8px 8px #666;
-  	-webkit-box-shadow: 8px 8px 8px #666;
-  	box-shadow: 8px 8px 8px #666;
-
-}
-.photoprof:hover{
-	transform: rotate(-10deg);	
-}
-
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -173,7 +163,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2em;
-		line-height: 1.5em;
+		line-height: .5em;
 	}
 
 	h3 {
@@ -2698,8 +2688,9 @@ input, select, textarea {
 			.features article .image img {
 				display: block;
 				width: 100%;
+				
 			}
-
+		
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
