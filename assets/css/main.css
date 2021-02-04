@@ -36,9 +36,8 @@ article a img{
 	transform: rotate(360deg);
 }
 
-
 .photoprof{
-	max-width: 300px;
+	max-width: 250px;
 	border-radius: 10px;
 	transition: .5s all;
 	-moz-box-shadow: 8px 8px 8px #666;
@@ -49,6 +48,7 @@ article a img{
 .photoprof:hover{
 	transform: rotate(-10deg);	
 }
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
