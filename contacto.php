@@ -6,12 +6,11 @@
 
     $para = 'contacto@hectorvaldesm.com';
 
-    $message = "Este mensaje fue envidao por: " . $name . " \r\n";
-    $message .= "Su e-mail es: " .$mail . "\r\n";
-    $message .= "Enviado el: " .date('d/m/y', time());
+    $contenido = "Este mensaje fue envidao por: " . $name . " \r\n";
+    $contenido .= "Su e-mail es: " .$email . "\r\n";
+    $contenido .= "Enviado el: " .date('d/m/y', time())."\r\n";
+    $contenido .= $message;
 
-    mail($para, $subject, utf8_decode($message), $header);
-
-    
+    mail($para, $subject, $contenido);
     header("Location:index.html");
 ?>

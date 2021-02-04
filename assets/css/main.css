@@ -41,6 +41,7 @@ article a img{
 	max-width: 300px;
 	border-radius: 10px;
 	transition: .5s all;
+	box-shadow: 12px 12px 5px #999;
 
 }
 .photoprof:hover{
@@ -2871,7 +2872,7 @@ input, select, textarea {
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		/*padding: 4em 0 2em 0;*/
 	}
 
 		#footer .copyright {
