@@ -12,5 +12,5 @@
     $contenido .= $message;
 
     mail($para, $subject, $contenido);
-    header("Location:index.html");
+    header("Location:gracias.html");
 ?>
