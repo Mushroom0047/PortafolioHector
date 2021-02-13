@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />		
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--reCaptcha-->
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -109,7 +112,7 @@
 								<div class="container">
 									<h3>Contactame</h3>
 									<p>Si quieres saber más sobre mi trabajo enviame un mensaje.</p>
-									<form method="post" action="contacto.php">
+									<form method="post" action="contacto.php">									
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" required/></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
@@ -122,6 +125,7 @@
 												</ul>
 											</div>
 										</div>
+										<div class="g-recaptcha" data-sitekey="6LcM8VQaAAAAAIPkrMqPETGDLhIvgmeEPlXcI0pc"></div>
 									</form>
 								</div>
 							</section>
