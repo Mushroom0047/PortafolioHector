@@ -30,15 +30,13 @@ section, summary, time, mark, audio, video {
 }
 
 article a img{
-	max-width: 200px;
+	max-width: 400px;
+	transition: all .5s;
+}
+article a img:hover{
+	filter: opacity(.5);
 }
 
-.turnimg{
-	transition: .8s all;
-}
-.turnimg:hover{
-	transform: rotate(360deg);
-}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
