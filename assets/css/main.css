@@ -2682,6 +2682,15 @@ input, select, textarea {
 			vertical-align: middle;
 			width: 48%;
 		}
+		.features article .imageApp {
+			display: inline-block;
+			padding-right: 2.5em;
+			vertical-align: middle;
+			width: 30%;
+			margin-left: 80px;
+			margin-right: 100px;
+			margin-bottom: 20px;
+		}
 
 			.features article .image img {
 				display: block;
