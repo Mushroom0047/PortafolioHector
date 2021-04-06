@@ -22,6 +22,8 @@
 	<link rel="icon" type="image/png" href="images/logo cuadrado.png">
 	<!--reCaptcha-->
 	<!--script src="https://www.google.com/recaptcha/api.js" async defer></script-->
+	<!--Animacion-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -61,11 +63,11 @@
 		<div id="main">
 
 			<!-- One -->
-			<section id="one">
+			<section id="one" >
 				<div class="image main" data-position="center">
 					<img src="images/banner.jpg" alt="Analista - Desarrollador - programador - diseño web" />
 				</div>
-				<div class="container">
+				<div class="container" >
 					<header class="major">
 						<h2>Saludos</h2>
 					</header>
@@ -74,7 +76,8 @@
 							<img class="image" id="phtoprof" src="images/portada.jpg"
 								alt="Analista - Desarrollador - Programador - Developer">
 							<div class="inner">
-								<p class="parrafo">Hola, Me llamo <b>Héctor</b> y soy un Estudiante de programación motivado,
+								<p class="parrafo">Hola, Me llamo <b>Héctor</b> y soy un Estudiante de programación
+									motivado,
 									bien organizado y autodidacta, con excelentes
 									dotes de multitarea y criterio
 									preciso.
@@ -89,7 +92,7 @@
 
 			<!-- Two -->
 			<section id="two">
-				<div class="container">
+				<div class="container" data-aos="fade-up">
 					<h3>Conocimientos</h3>
 					<p>Constantemente estoy aprendiendo de manera autodidacta, pero hasta ahora estas son las
 						tecnologías que conozco.</p>
@@ -111,7 +114,7 @@
 					<h3>Algunos trabajos</h3>
 					<p>Te muestro un poco lo que he desarrollado.
 					</p>
-					<div class="features">
+					<div class="features" data-aos="fade-right">
 						<article>
 							<a href="https://hvgamestudio.itch.io/" target="_blank" class="image"><img
 									src="images/itchio.jpg" alt="Diseño - Videojuegos - Indie - Desarrollador " /></a>
@@ -124,7 +127,7 @@
 							</div>
 						</article>
 					</div>
-					<div class="features">
+					<div class="features" data-aos="fade-right">
 						<article>
 							<a href="https://linna-dem.netlify.app" target="_blank" class="image"><img
 									src="images/Sitio Web.jpg"
@@ -135,13 +138,13 @@
 										href="https://linna-dem.netlify.app">Linna-dem.</a></p>
 							</div>
 						</article>
-					</div>				
+					</div>
 				</div>
 			</section>
-			
+
 			<!-- Four -->
 			<section id="four">
-				<div class="container">
+				<div class="container" data-aos="flip-left">
 					<h3>Contactame</h3>
 					<p>Si quieres saber más sobre mi trabajo enviame un mensaje.</p>
 					<form method="post" action="contacto.php">
@@ -187,7 +190,10 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
