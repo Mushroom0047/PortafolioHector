@@ -130,7 +130,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffb366 !important;
+			color: #212529 !important;
 		}
 
 	strong, b {
@@ -1798,7 +1798,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #FFB366;
+		color: #ffc107;
 		font-size: 3.5em;
 	}
 
@@ -1861,7 +1861,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ffb366;
+			border-color: #ffc107;
 		}
 
 	select {
@@ -1966,7 +1966,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #FFB366;
+			border-color: #ffc107;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2414,7 +2414,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #ffb366;
+				background: #ffc107;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2445,7 +2445,8 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.25em;
+				/*font-size: 1.25em;*/
+				font-size: 30px !important;
 			}
 
 /* Table */
@@ -2630,7 +2631,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #ffb366;
+			background-color: #ffc107;
 			color: #ffffff !important;
 		}
 
@@ -2638,14 +2639,14 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #E88751;
+				background-color: #dfac13;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #ffb366;
+				background-color: #dfac13;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2722,7 +2723,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ffb366;
+		background: #ffc107;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2750,7 +2751,8 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #212529 !important;
+				
 			}
 
 		#header > header {
@@ -2794,7 +2796,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #FF7C59;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -2811,7 +2813,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #FFB366;
+					border-top: solid 2px #ffc107;
 					display: block;
 					padding: 0;
 				}
@@ -2830,7 +2832,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #ffb366 !important;
+							color: #ffc107 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2861,7 +2863,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #212529;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
@@ -3098,7 +3100,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #ffb366;
+						background: #ffc107;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
